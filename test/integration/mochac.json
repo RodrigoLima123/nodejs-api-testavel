@@ -1,0 +1,12 @@
+{
+    "diff": true,
+    "extension": ["js"],
+    "opts": "./test/mocha.opts",
+    "package": "./package.json",
+    "reporter": "spec",
+    "slow": 5000,
+    "timeout": 2000,
+    "ui": "bdd",
+    "compilers": "js:babel-core/register",
+    "require": "test/integration/helpers.js"
+  }
